@@ -16,10 +16,10 @@ function convertToObject(sourceString) {
     const [cssName, cssValue] = style.split(':');
 
     if (cssName && cssValue) {
-      const trimmedСssName = cssName.trim();
+      const trimmedCssName = cssName.trim();
       const trimmedCssValue = cssValue.trim();
 
-      stylesObject[trimmedСssName] = trimmedCssValue;
+      stylesObject[trimmedCssName] = trimmedCssValue;
     }
   });
 
